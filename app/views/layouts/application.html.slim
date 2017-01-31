@@ -9,6 +9,7 @@ html
     = stylesheet_link_tag 'application', media: 'all'
     = csrf_meta_tags
   body
+    = render 'shared/navbar'
     = yield
     = javascript_include_tag 'application'
     = yield(:after_js)
