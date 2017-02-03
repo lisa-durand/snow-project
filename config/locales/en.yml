@@ -1,3 +1,13 @@
 en:
   faq:
     page_title: À vos snows - FAQ
+
+  contact:
+    page_title: À vos snows - Contact
+    section_contact_title: Contact us
+    section_contact_content: Available 7/7 from 8am to 9pm
+
+  form:
+    name_label: Name
+    content_label: Message
+    button_label: Send

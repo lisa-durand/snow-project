@@ -1,0 +1,11 @@
+- content_for :title, t('contact.page_title')
+
+div.container
+  h3 = t ('contact.section_contact_title')
+  p = t('contact.section_contact_content')
+  p +33 6 75 42 53 29 / adele@avossnows.com
+  = simple_form_for @contact do |f|
+    = f.input :name, label: t('form.name_label')
+    = f.input :email
+    = f.input :content, label: t('form.content_label')
+    = f.button :submit, t('form.button_label'), :class=> "btn btn-primary"

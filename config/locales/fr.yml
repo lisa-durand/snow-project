@@ -4,3 +4,13 @@ fr:
 
   school:
     page_title_html: À vos snows - L'école
+
+  contact:
+    page_title: À vos snows - Contact
+    section_contact_title: Contactez-nous
+    section_contact_content: Je suis joignable 7/7j de 8h à 21h
+
+  form:
+    name_label: Nom
+    content_label: Message
+    button_label: Envoyer
