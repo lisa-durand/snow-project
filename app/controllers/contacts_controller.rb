@@ -6,11 +6,11 @@ class ContactsController < ApplicationController
   def create
     @contact = Contact.create(params_contact)
     if @contact.save
-      ContactMailer.contact(@contact).deliver_now
-      flash.now[:notice] = 'Thank you for your message. We will contact you soon!'
-      redirect_to new_contact_path()
+      ContactMailer.new_contact(@contact).deliver_now
+      redirect_to new_contact_path
+      flash[:notice] = t('.message')
     else
-      flash.now[:error] = 'Cannot send message.'
+      flash[:alert] = t('.alert')
       render :new
     end
   end
