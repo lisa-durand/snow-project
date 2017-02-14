@@ -16,17 +16,26 @@ gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do
   gem 'byebug'
+  gem 'capybara', '~> 2.7', '>= 2.7.1'
   gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
+  gem 'factory_girl_rails', '~> 4.7'
+  gem 'rspec-rails', '~> 3.5'
 end
 
 group :development do
-  gem 'web-console', '~> 2.0'
-  gem 'spring'
   gem 'better_errors', '~> 2.1', '>= 2.1.1'
   gem 'binding_of_caller', '~> 0.7.2'
+  gem 'spring'
+  gem 'web-console', '~> 2.0'
+end
+
+group :test do
+  gem 'database_cleaner', '~> 1.5', '>= 1.5.3'
+  gem 'shoulda-matchers', '~> 3.1', '>= 3.1.1'
+  gem 'simplecov', '~> 0.12.0', require: false
 end
 
 group :production do
-  gem 'rails_12factor', '~> 0.0.3'
   gem 'puma', '~> 3.6', '>= 3.6.2'
+  gem 'rails_12factor', '~> 0.0.3'
 end
