@@ -1,5 +1,4 @@
 == README
 
-A smart & beautiful project by @wondersonia and @superdudu.
-The idea is to manage booking & payment for snow lessons
+A non-profit sideproject by @wondersonia and @superdudu to manage booking & payment for snow lessons
 --- URL coming soon ---
