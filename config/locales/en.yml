@@ -1,3 +1,27 @@
 en:
+  navbar:
+    faq: FAQ
+    school: School
+    contact: Contact
+
   faq:
     page_title: À vos snows - FAQ
+
+  school:
+    page_title_html: À vos snows - School
+
+  contact:
+    page_title: À vos snows - Contact
+    title: Contact us
+    content: Available 7/7 from 8am to 9pm
+    infos: +33 6 75 42 53 29 / adele@avossnows.com
+
+  contacts:
+    create:
+      message: 'Thank you for your message. We will contact you soon!'
+      alert: 'Cannot send message.'
+
+  form:
+    name_label: Name
+    content_label: Message
+    button_label: Send

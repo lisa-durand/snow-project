@@ -1,6 +1,27 @@
 fr:
+  navbar:
+    faq: FAQ
+    school: École
+    contact: Contact
+
   faq:
     page_title: À vos snows - FAQ
 
   school:
     page_title_html: À vos snows - L'école
+
+  contact:
+    page_title: À vos snows - Contact
+    title: Contactez-nous
+    content: Je suis joignable 7/7j de 8h à 21h
+    infos: +33 6 75 42 53 29 / adele@avossnows.com
+
+  contacts:
+    create:
+      message: 'Merci pour votre message, on revient vers vous très bientôt !'
+      alert: "Problème dans l'envoi du message"
+
+  form:
+    name_label: Nom
+    content_label: Message
+    button_label: Envoyer

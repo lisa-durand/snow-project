@@ -20,6 +20,7 @@ group :development, :test do
   gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
   gem 'factory_girl_rails', '~> 4.7'
   gem 'rspec-rails', '~> 3.5'
+  gem 'letter_opener', '~> 1.4', '>= 1.4.1'
 end
 
 group :development do

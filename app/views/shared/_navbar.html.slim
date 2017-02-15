@@ -10,6 +10,8 @@
     .collapse.navbar-collapse id='navbar-collapse'
       ul.nav.navbar-nav.navbar-right
         li
-          = link_to 'FAQ', root_path
+          = link_to t('navbar.faq'), root_path
         li
-          = link_to 'School', school_path
+          = link_to t('navbar.school'), school_path
+        li
+          = link_to t('navbar.contact'), new_contact_path
