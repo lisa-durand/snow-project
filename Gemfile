@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 source 'https://rubygems.org'
 
 gem 'rails', '>= 5.0.0.rc2', '< 5.1'
@@ -19,13 +20,17 @@ group :development, :test do
   gem 'capybara', '~> 2.7', '>= 2.7.1'
   gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
   gem 'factory_girl_rails', '~> 4.7'
-  gem 'rspec-rails', '~> 3.5'
   gem 'letter_opener', '~> 1.4', '>= 1.4.1'
+  gem 'rspec-rails', '~> 3.5'
 end
 
 group :development do
   gem 'better_errors', '~> 2.1', '>= 2.1.1'
   gem 'binding_of_caller', '~> 0.7.2'
+  gem 'rubocop', '~> 0.47.1', require: false
+  gem 'rubocop-rspec', '~> 1.3', '>= 1.3.1'
+  gem 'rubocop-rspec-focused', '~> 0.1.0', require: false
+  gem 'slim_lint', '~> 0.11.0'
   gem 'spring'
   gem 'web-console', '~> 2.0'
 end
